@@ -43,11 +43,17 @@ Smart-Expense-Tracker-python/
 1. Install Python  
 2. Install required libraries:
 
+
 ## Screenshots
 
-![App Screenshot](screenshot1.png)
-```bash
+### Main Menu
+![Menu](menu.png)
 
+### Expense Records
+![Records](records.png)
+
+### Expense Chart
+![Chart](chart.png)
 pip install matplotlib scikit-learn numpy
 
 Run the project:
