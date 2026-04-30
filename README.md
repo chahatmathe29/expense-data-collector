@@ -1,4 +1,4 @@
-# Smart Expense Tracker Python
+# expense-intelligence-system
 
 AI-powered Expense Tracker built using Python, SQLite, Charts, and Machine Learning Prediction.
 
