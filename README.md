@@ -25,6 +25,10 @@ Expense Tracker → MySQL → Data Warehouse Analytics System → Dashboard + ML
 pip install -r requirements.txt  
 streamlit run app_streamlit.py
 
+## 🔗 Data Flow
+
+Expense Tracker → MySQL → Data Warehouse Analytics System → Dashboard + ML Predictions
+
 ## 📸 Output
 
 ![Dashboard](dashboard.png)  
