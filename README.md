@@ -1,77 +1,32 @@
-#smart-expense-tracker
+# 💸 Expense Tracker with Python-SQL Integration
 
-Developed an AI-powered expense tracking system to manage personal financial records efficiently.
+## 🚀 Overview
+A Python-based expense tracking application that stores financial data in MySQL and generates real-time insights.
 
----
+## 🔗 Project Integration
+This system acts as the **data collection layer** for the Data Warehouse Analytics System, where collected expense data is further analyzed and used for visualization and prediction.
 
-## Features
+## 📊 Data Flow
+Expense Tracker → MySQL → Data Warehouse Analytics System → Dashboard + ML Predictions
 
-- Add new expenses
-- View all expenses
-- Update expense records
-- Delete expenses
-- Search expenses by category
-- Monthly expense report
-- Category-wise summary
-- Pie chart visualization
-- Budget alert system
-- AI-based next month expense prediction
+## 🛠️ Tech Stack
+- Python (Pandas)
+- MySQL
+- Streamlit
 
----
+## 📊 Features
+- Add and store expenses in MySQL
+- View all transactions
+- Category-wise spending analysis
+- Monthly trend visualization
+- Budget tracking system
 
-## Tech Stack
+## ▶️ Run Locally
+pip install -r requirements.txt  
+streamlit run app_streamlit.py
 
-- Python
-- SQLite
-- Matplotlib
-- Scikit-learn
-- NumPy
+## 📸 Output
 
----
-
-## Project Structure
-
-Smart-Expense-Tracker-python/
-│── expense_tracker.py
-│── README.md
-│── .gitignore
-
----
-
-## How to Run
-
-1. Install Python  
-2. Install required libraries:
-
-
-## Screenshots
-
-### Main Menu
-![Menu](menu.png)
-
-### Expense Records
-![Records](records.png)
-
-### Expense Chart
-![Chart](chart.png)
-pip install matplotlib scikit-learn numpy
-
-Run the project:
-python expense_tracker.py
-
-Future Enhancements
-GUI Version using Tkinter
-Web App Version using Flask
-User Login System
-PDF/Excel Report Export
-Cloud Deployment
-Learning Outcomes
-
-This project helped me learn:
-
-Python programming
-Database integration using SQLite
-CRUD operations
-Data visualization
-Basic Machine Learning implementation
-Problem solving through real-world application building
+![Dashboard](dashboard.png)  
+![Data](data_table.png)  
+![Insights](insights.png)
